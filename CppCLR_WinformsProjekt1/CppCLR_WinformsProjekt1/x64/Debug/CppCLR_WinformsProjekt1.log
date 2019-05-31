@@ -1,57 +1,6 @@
 ﻿  Concert.cpp
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C3646: 'concert': unknown override specifier
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(54): note: see reference to class template instantiation 'concert<T>' being compiled
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C2804: binary 'operator <<' has too many parameters
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C2059: syntax error: '('
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(59): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'const std::vector<T,std::allocator<_Ty>>' to 'const std::vector<_Ty,_Alloc> &'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(59): note: Reason: cannot convert from 'const std::vector<T,std::allocator<_Ty>>' to 'const std::vector<_Ty,_Alloc>'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(59): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): error C2039: 'setw': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\algorithm(23): note: see declaration of 'std'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): error C3861: 'setw': identifier not found
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const std::vector<T,std::allocator<_Ty>>' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): note: while trying to match the argument list '(const std::vector<T,std::allocator<_Ty>>, int)'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const std::vector<T,std::allocator<_Ty>>' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): note: while trying to match the argument list '(const std::vector<T,std::allocator<_Ty>>, int)'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): error C2039: 'setw': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\algorithm(23): note: see declaration of 'std'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): error C3861: 'setw': identifier not found
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(63): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const std::vector<T,std::allocator<_Ty>>' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(63): note: while trying to match the argument list '(const std::vector<T,std::allocator<_Ty>>, int)'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(63): error C2088: '[': illegal for class
   Source.cpp
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C3646: 'concert': unknown override specifier
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(54): note: see reference to class template instantiation 'concert<T>' being compiled
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C2804: binary 'operator <<' has too many parameters
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(20): error C2059: syntax error: '('
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(59): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'const std::vector<T,std::allocator<_Ty>>' to 'const std::vector<_Ty,_Alloc> &'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(59): note: Reason: cannot convert from 'const std::vector<T,std::allocator<_Ty>>' to 'const std::vector<_Ty,_Alloc>'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(59): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): error C2039: 'setw': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\algorithm(23): note: see declaration of 'std'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): error C3861: 'setw': identifier not found
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const std::vector<T,std::allocator<_Ty>>' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(61): note: while trying to match the argument list '(const std::vector<T,std::allocator<_Ty>>, int)'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const std::vector<T,std::allocator<_Ty>>' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): note: while trying to match the argument list '(const std::vector<T,std::allocator<_Ty>>, int)'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): error C2039: 'setw': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\algorithm(23): note: see declaration of 'std'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(62): error C3861: 'setw': identifier not found
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(63): error C2678: binary '[': no operator found which takes a left-hand operand of type 'const std::vector<T,std::allocator<_Ty>>' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(63): note: while trying to match the argument list '(const std::vector<T,std::allocator<_Ty>>, int)'
-c:\users\я\desktop\practice-master\cppclr_winformsprojekt1\cppclr_winformsprojekt1\concert.h(63): error C2088: '[': illegal for class
   Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CppCLR_WinformsProjekt1.vcxproj -> C:\Users\я\Desktop\practice-master\CppCLR_WinformsProjekt1\x64\Debug\SystemOfConcert.exe

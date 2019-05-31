@@ -11,16 +11,11 @@ struct Event
 };
 
 template <typename T>
-class concert {
+class concert {/*
 	std::vector<T> array_;
 
 public:
 	friend std::ostream& operator<< (std::ostream &out, const concert &obj)
-
-	concert()
-	{
-		array_ = 0;
-	}
 
 	concert(std::vector<T> arr)
 	{
@@ -55,10 +50,10 @@ public:
 	{
 		return this->array_.size();
 	}
-
+	*/
 };
 
-
+/*
 std::ostream& operator<< (std::ostream &out, const concert &obj)
 {
 	for (int i = 0; i < static_cast<int>(obj.array_.size()); i++)
@@ -71,4 +66,4 @@ std::ostream& operator<< (std::ostream &out, const concert &obj)
 	out << std::endl;
 
 	return out;
-}
+}*/
